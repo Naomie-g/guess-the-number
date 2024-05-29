@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #020823;
+    align-items: center;
+    padding: 20%;
+}
+
+.compteur{
+    background-color: transparent;
+    border: 5px;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 45px #0053b8f7;
+    color: white;
+}
+
+.button{
+    background-color: aqua;
+    border-radius: 40px;
+    font-size: 12px;
+    width: 5em;
+    border: none;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    margin: 1em;
+}
+
+.button:hover {
+    
+    box-shadow: 0 0 15px #0ef, 0 0 45px #0ef;
+    background-color: aquamarine;
+}
